@@ -1,0 +1,26 @@
+G.V. 2.1 — Nossa aventura pela Europa
+
+COMO ABRIR
+1. Extraia todos os arquivos em uma pasta e abra index.html no Chrome.
+2. Para atualizar GitHub Pages, faça backup da versão antiga e do progresso em Configurações > Exportar backup completo. Envie TODOS os arquivos deste ZIP à raiz do repositório (substituindo os anteriores). Não envie o ZIP em si nem o JSON financeiro privado.
+3. Abra o endereço publicado em HTTPS. Recarregue a página e use Configurações > Verificar acesso offline. Para instalar, use o menu do navegador (Chrome: Instalar / Adicionar à tela inicial; Safari: Compartilhar > Adicionar à Tela de Início).
+
+DADOS E PRIVACIDADE
+- A mesma chave de armazenamento da versão 2.0 foi mantida. O mesmo navegador, perfil e origem (endereço HTTPS) preservam os dados existentes. Se mudar de pasta local, domínio, navegador ou aparelho, exporte e importe um backup completo.
+- Importe GV-financeiro-privado.json apenas se ainda não tiver preenchido o financeiro. Importação substitui os dados da seção. O arquivo não está neste ZIP.
+- O site contém o link da pasta Drive solicitado; confira se o acesso do Drive é restrito. O link não é autenticação. Nenhum comprovante é enviado ao site.
+- Fotografias do inventário: miniaturas pequenas, comprimidas e armazenadas no navegador; originais no Drive. Backup completo inclui miniaturas e informações particulares. Guarde-o de forma privada. Espaço do navegador é limitado.
+- Sincronização entre aparelhos: manual por backup. Não há login nem servidor de dados.
+- O presente original permanece preservado como arquivo histórico. Como já era público, revise o conteúdo original e também o roteiro atual antes de publicar, caso deseje limitar exposição de informações de viagem.
+
+FUNCIONALIDADES 2.1
+- Roteiro com cartões ilustrados por destino e links Google Maps / Como chegar por local; dias de transição divididos por atividade.
+- Modo Hoje automático durante a viagem, marcação de visitas e próximo compromisso com horário informado.
+- Inventário em lista ou galeria, peso unitário, tara e limites editáveis, looks por pessoa/dia.
+- Clima: consulta sob demanda à Open-Meteo (internet necessária, horizonte de previsão limitado); nascer/pôr do sol estimados astronomicamente.
+- Gastronomia editável, alternativas para chuva, contatos de emergência, frases, souvenirs, passaporte simbólico, conversor de moedas com câmbio editável, modo escuro.
+- PWA: manifesto, ícones, service worker para cache dos arquivos locais. Requer HTTPS (ou localhost) e primeira visita online. Drive, Maps, fontes externas, links externos e previsão não são disponibilizados offline pelo site.
+- Horários/aberturas/tarifas devem ser reconfirmados. Links de localização são buscas por nomes e endereços, não coordenadas validadas individualmente; restaurantes ainda não reservados são sugestões.
+
+TESTES
+Sintaxe JavaScript e renderização lógica de todas as 22 páginas, filtro Milão, galeria, marcação de visita e correspondência de eventos verificados. O navegador do ambiente bloqueou a navegação local; testes completos de interação, instalação PWA, cache offline e consulta meteorológica devem ser feitos no endereço publicado.
